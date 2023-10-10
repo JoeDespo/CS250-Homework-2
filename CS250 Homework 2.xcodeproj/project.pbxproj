@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B006BCC2AD43FD0007C5665 /* Person.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B006BCA2AD43FD0007C5665 /* Person.cpp */; };
+		7B57BB932AD44DBD0025BD9E /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B57BB912AD44DBD0025BD9E /* Student.cpp */; };
+		7B57BB962AD45D220025BD9E /* Professor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B57BB942AD45D220025BD9E /* Professor.cpp */; };
 		7B8BA27F2AB6ACD3008CC6C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B8BA27E2AB6ACD3008CC6C0 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B006BCA2AD43FD0007C5665 /* Person.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Person.cpp; sourceTree = "<group>"; };
+		7B006BCB2AD43FD0007C5665 /* Person.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Person.hpp; sourceTree = "<group>"; };
+		7B57BB912AD44DBD0025BD9E /* Student.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		7B57BB922AD44DBD0025BD9E /* Student.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Student.hpp; sourceTree = "<group>"; };
+		7B57BB942AD45D220025BD9E /* Professor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Professor.cpp; sourceTree = "<group>"; };
+		7B57BB952AD45D220025BD9E /* Professor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Professor.hpp; sourceTree = "<group>"; };
 		7B8BA27B2AB6ACD3008CC6C0 /* CS250 Homework 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS250 Homework 2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8BA27E2AB6ACD3008CC6C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				7B8BA27E2AB6ACD3008CC6C0 /* main.cpp */,
+				7B006BCA2AD43FD0007C5665 /* Person.cpp */,
+				7B006BCB2AD43FD0007C5665 /* Person.hpp */,
+				7B57BB912AD44DBD0025BD9E /* Student.cpp */,
+				7B57BB922AD44DBD0025BD9E /* Student.hpp */,
+				7B57BB942AD45D220025BD9E /* Professor.cpp */,
+				7B57BB952AD45D220025BD9E /* Professor.hpp */,
 			);
 			path = "CS250 Homework 2";
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B57BB932AD44DBD0025BD9E /* Student.cpp in Sources */,
+				7B57BB962AD45D220025BD9E /* Professor.cpp in Sources */,
+				7B006BCC2AD43FD0007C5665 /* Person.cpp in Sources */,
 				7B8BA27F2AB6ACD3008CC6C0 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
